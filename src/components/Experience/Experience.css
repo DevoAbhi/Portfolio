@@ -54,6 +54,11 @@ li{
     .experience-container {
       grid-template-columns: repeat(2, 1fr);
     }
+
+    .experience-card {
+        width: 300px;
+        height: 400px;
+    }
   }
 
   @media screen and (max-width: 480px) {

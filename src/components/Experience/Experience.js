@@ -9,14 +9,14 @@ const Experience = () => {
 
             <div className="experience-container">
                 {experiences.map((experience) => (
-                    <div className="card experience-card">
+                    <div key={experience.id} className="card experience-card">
                         <div className="company-name">{experience.company_name}</div>
                         <div className="position">{experience.position}</div>
                         <div className="time">{experience.start_date}-{experience.end_date}</div>
                         <div className="work">
                             <ul>
                                 {experience.responsibilities.map((responsibility) => (
-                                    <li>{responsibility}</li>
+                                    <li key={responsibility.id}>{responsibility.job}</li>
                                 ))}
                             </ul>
                         </div>

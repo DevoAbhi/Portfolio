@@ -15,7 +15,7 @@ const ProjectItem = () => {
     const [slidesPerView, setSlidesPerView] = useState(3);
     useEffect(() => {
         function handleResize() {
-            if (window.innerWidth >= 768) {
+            if (window.innerWidth > 768) {
                 setSlidesPerView(3);
             } else if (window.innerWidth >= 576) {
                 setSlidesPerView(2);
