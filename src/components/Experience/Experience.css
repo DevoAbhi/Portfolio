@@ -1,0 +1,63 @@
+.experience-section {
+    padding-top: 6vh;
+    /* height: 94vh; */
+}
+
+.experience-heading {
+    font-size: 40px;
+    opacity: 0.8;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.experience-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+.experience-card {
+    height: 300px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.company-name {
+    font-size: 23px;
+    font-weight:bold;
+    opacity: 0.8;
+}
+
+.position {
+    font-size: 17px;
+}
+
+.time {
+    font-size: 14px;
+}
+
+.work {
+    text-align: left;
+}
+
+ul {
+    list-style:"\2192  ";
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .experience-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .experience-container {
+      grid-template-columns: 1fr;
+    }
+  }
