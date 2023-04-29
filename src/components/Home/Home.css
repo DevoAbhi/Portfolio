@@ -1,5 +1,5 @@
 .home-section {
-  height: 100vh;
+  height: 94vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -33,3 +33,16 @@
   height: 50px;
   width: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  .home-section {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 6vh;
+  }
+}
+
+/* @media screen and (max-width: 480px) {
+  .experience-container {
+    grid-template-columns: 1fr;
+  }
+} */
