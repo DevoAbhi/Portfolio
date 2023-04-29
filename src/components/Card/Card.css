@@ -1,0 +1,32 @@
+.card {
+  /* border: 2px solid black; */
+  background-color: rgb(241, 241, 241);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px 31px -13px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 31px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 31px -13px rgba(0, 0, 0, 0.75);
+}
+
+.project-card {
+  width: 230px;
+  height: 300px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: black;
+}
+
+.project-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.project-dsc {
+  text-align: start;
+  font-size: 15px;
+  opacity: 0.8;
+}
